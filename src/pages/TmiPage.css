@@ -1,0 +1,47 @@
+.tmi {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: var(--space-section) 0;
+}
+
+.tmi-inner {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+}
+
+.tmi-category-label {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: var(--text-body-sm);
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: var(--space-xl);
+}
+
+.tmi-card {
+  background-color: var(--color-surface-card);
+  border-radius: var(--radius-lg);
+  padding: var(--space-xxxl) var(--space-xxl);
+  margin-bottom: var(--space-xxl);
+  font-family: var(--font-display);
+  font-size: var(--text-heading-md);
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: var(--color-ink);
+  min-height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tmi-actions {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-lg);
+  flex-wrap: wrap;
+}
