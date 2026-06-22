@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
-import IntroPage from './pages/IntroPage';
-import CategoriesPage from './pages/CategoriesPage';
-import TmiPage from './pages/TmiPage';
-import PrivacyPage from './pages/PrivacyPage';
+import IntroPage from '../presentation/pages/IntroPage';
+import CategoriesPage from '../presentation/pages/CategoriesPage';
+import TmiPage from '../presentation/pages/TmiPage';
+import PrivacyPage from '../presentation/pages/PrivacyPage';
 
 export default function App() {
   return (

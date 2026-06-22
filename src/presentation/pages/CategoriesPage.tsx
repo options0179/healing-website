@@ -1,5 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom';
-import { categories } from '../data/categories';
+import { categories } from '../../domain/category';
 import VineDecoration from '../components/VineDecoration';
 import Footer from '../components/Footer';
 import './CategoriesPage.css';

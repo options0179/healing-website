@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, Navigate, useParams } from 'react-router-dom';
-import { getCategoryById } from '../data/categories';
-import { getRandomTmi } from '../lib/tmiSource';
+import { getCategoryById } from '../../domain/category';
+import { getRandomTmi } from '../../application/tmiService';
 import VineDecoration from '../components/VineDecoration';
 import Footer from '../components/Footer';
 import './TmiPage.css';
