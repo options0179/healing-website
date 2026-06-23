@@ -1,8 +1,8 @@
-import animalsTmi from '../data/tmi/animals';
-import natureTmi from '../data/tmi/nature';
-import historyTmi from '../data/tmi/history';
-import universeTmi from '../data/tmi/universe';
-import foodTmi from '../data/tmi/food';
+import animalsTmi from '../data/tmi/animals.json';
+import natureTmi from '../data/tmi/nature.json';
+import historyTmi from '../data/tmi/history.json';
+import universeTmi from '../data/tmi/universe.json';
+import foodTmi from '../data/tmi/food.json';
 
 // 카테고리별 데이터는 현재 큐레이션 풀에서 가져오지만,
 // 추후 외부 API로 교체할 카테고리만 이 맵의 값을 바꾸면 된다.
